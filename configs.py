@@ -24,14 +24,27 @@ class Config(object):
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", True))
 	USAGE_WATERMARK_ADDER = """
-Hi, I am Video Watermark Adder Bot!
+🖐با سلام  عزیز.
 
-**How to Added Watermark to a Video?**
-**Usage:** First Send a JPG Image/Logo, then send any Video. Better add watermark to a MP4 or MKV Video.
+❤️به ربات واترمارک  خوش آمدید.
 
-__Note: I can only process one video at a time. As my server is Heroku, my health is not good. If you have any issues with Adding Watermark to a Video, then please Report at [Support Group](https://t.me/linux_repo).__
+➖➖➖➖➖➖➖➖
 
-Desgined by @AbirHasan2005
+⁉️ دوست داری روی فیلم هات واتر مارک کنی تا دیگه کسی از اون ها سو استفاده نکنه؟
+
+✅ من یک ربات کاربردی هستم ک میتونی عکس مورد نظرت رو روی فیلمت بزاری تا حجم ۲ گیگابایت
+
+☑️ کافیه عکس مورد نظرت رو با فرمت (jpg یا Png ) برام ارسال کنی تا بزارم روی فیلمت 
+
+⚙️ از دستور /settings  برای ست کردن تنظیمات استفاده کن
+
+دقت کن استفاده از من رایگانه و محدودیت حجمی ای وجود نداره 💎
+
+👇🏻 فایل مورد نظرت رو بفرست برام
+
+➖➖➖➖➖➖➖➖
+
+📣 @hector_tm
 """
 	PROGRESS = """
 Percentage : {0}%
